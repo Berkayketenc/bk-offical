@@ -1,0 +1,50 @@
+.page-component-root {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 1024px) {
+    min-height: 80vh;
+    max-height: 120vh;
+  }
+}
+
+.root-home {
+  width: 100%;
+
+  img {
+    height: 34% !important;
+
+    @media (max-width: 1024px) {
+      margin-top: 10rem;
+    }
+  }
+
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @apply bg-black shadow-md;
+
+  button {
+    color: white;
+    width: 200px;
+    border: 1px solid white;
+    padding: 1rem;
+    cursor:default;
+  }
+
+  p {
+    color: white;
+    text-transform: uppercase;
+    padding: 2rem;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    font-size: 20px;
+    text-align: center;
+  }
+}

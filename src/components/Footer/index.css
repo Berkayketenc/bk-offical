@@ -1,0 +1,3 @@
+.footer {
+  @apply bg-[#002733] p-4 fixed bottom-0 w-full text-center text-white text-xs font-bold;
+}

@@ -1,0 +1,10 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescript": "typescriptreact",
+    "vue-html": "html"
+  }
+  
+}

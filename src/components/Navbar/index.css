@@ -1,0 +1,47 @@
+.navbar {
+  @apply text-[#ffffff] py-2;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.navbar-container {
+  @apply flex justify-center items-center max-w-screen-xl mx-auto;
+
+  @media (max-width: 1340px) {
+    justify-content: space-around !important;
+  }
+
+  @screen lg {
+    justify-content: space-between;
+  }
+}
+
+.navbar-logo {
+  @apply text-[#002733] text-2xl font-bold;
+
+  @screen lg {
+    img {
+      @apply h-[94px];
+    }
+  }
+
+  img {
+    @apply h-[64px];
+  }
+}
+
+.navbar-items {
+  @apply flex gap-5 mx-auto;
+
+  @screen lg {
+   margin:0;
+  }
+}
+
+.navbar-items a {
+  @apply text-[#ffffff] no-underline text-base font-normal;
+}
+
+.navbar-items a:hover {
+  @apply underline;
+}

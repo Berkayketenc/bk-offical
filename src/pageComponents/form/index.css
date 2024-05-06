@@ -1,0 +1,52 @@
+.formContainer {
+  margin: auto;
+  width: 650px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formElement {
+  margin-bottom: 20px;
+}
+
+.formElement label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.formElement input,
+.formElement textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.formElement input:focus,
+.formElement textarea:focus {
+  border-color: #007bff;
+}
+
+.formButton {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  border: black;
+  border: solid 2px;
+}
+
+.formButton:hover {
+  background-color: #ffffff;
+  color: black;
+}
